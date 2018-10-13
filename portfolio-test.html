@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Portfolio Test</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!--Link to css page-->
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+</head>
+
+<body>
+    <!--Nav Bar-->
+    <nav class="navbar navbar-inverse">    
+        <div class="container-fluid">   
+            <div class="navbar-header">   
+                <a class="navbar-brand" href="portfolio-test.html">Greg Fish</a>   
+            </div>
+            <ul class="nav navbar-nav">    
+                <li class="active"><a href="portfolio-test.html">Portfolio</a></li>
+                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">More Info <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="index.html">About Me</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="assets/Resume.docx" download>Download Resume</a></li>
+                <li><a href="https://github.com/fish6206" target="_blank"><img src="assets/github.png" alt="github" height="30" width="30"></a></li>
+                <li><a href="https://www.linkedin.com/in/greg-fish-3b4943a2/" target="_blank"><img src="assets/linkedin.png" alt="linkedin" height="30" width="30"></a></li>
+            </ul>
+        </div>
+    </nav>
+    <!--Nav Bar End-->
+
+    <!--Start bootstrap container-->
+    <div class="container">
+        <h1>Portfolio</h1>
+        <!--Start Carousel-->
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <a href="https://fish6206.github.io/Word-Guess-Game/" target="_blank">
+                    <img src="assets/word-guess-game1.JPG" class="carousel-img" alt="Word Guess Game" height="150">
+                    </a>
+                    <div class="carousel-caption">
+                        <a href="https://github.com/fish6206/Word-Guess-Game1" target="_blank">
+                          <img src="assets/github.png" alt="github" height="90" width="90">  
+                        </a>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <a href = "https://fish6206.github.io/TriviaGame/" target="_blank">
+                    <img src="assets/trivia1.JPG" class="carousel-img" alt="Trivia Game" style="width:100%;">
+                    </a>
+                    <div class="carousel-caption">                      
+                        <a href="https://github.com/fish6206/TriviaGame" target="_blank">
+                            <img src="assets/github.png" alt="github" height="90" width="90">  
+                        </a>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <a href="https://brysonelson.github.io/project-gpgp/" target="_blank">
+                        <img src="assets/bar-search1.JPG" class="carousel-img" alt="Bar Finder" style="width:100%;">
+                    </a>
+                    <div class="carousel-caption">
+                        <a href="https://github.com/brysonelson/project-gpgp" target="_blank">
+                            <img src="assets/github.png" alt="github" height="90" width="90">  
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <!--End Carousel-->
+        <h3 class="text-center">Click on image to load app or logo to load GitHub page.</h3>
+    </div>
+
+    
+</body>
+
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <title>Contact</title>
+
+    <title>Portfolio Test</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!--Link to css page-->
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+
+</head>  
+
+<body>
+  <!--Nav Bar-->  
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="portfolio-test.html">Greg Fish</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li><a href="portfolio-test.html">Portfolio</a></li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">More Info <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li class="active"><a href="contact.html">Contact</a></li>
+            <li><a href="index.html">About Me</a></li>
+          </ul>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="assets/Resume.docx" download>Download Resume</a></li>
+        <li><a href="https://github.com/fish6206" target="_blank"><img src="assets/github.png" alt="github" height="30"
+              width="30"></a></li>
+        <li><a href="https://www.linkedin.com/in/greg-fish-3b4943a2/" target="_blank"><img src="assets/linkedin.png" alt="linkedin"
+              height="30" width="30"></a></li>
+      </ul>
+    </div>
+  </nav>
+  <!--Nav Bar End-->
+
+  <!--Beging bootstrap format-->
+  <!--Form-->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2"></div>
+      <div class="col-md-10">
+        <h1 class="display-4">Contact</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-2"></div>
+      <div class="col-md-8">
+      <form action="mailto:fish.greg4@gmail.com" method="post" enctype="text/plain">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input class="form-control" id="exampleInputPassword1" placeholder="John Doe">
+        </div>   
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Comments</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Comments"></textarea>
+        </div>
+        <button type="submit" value="send" class="btn btn-primary">Submit</button>
+      </form>
+      </div>
+      <div class="col-md-2"></div> 
+    </div> 
+  </div>
+  <!--Form End-->
+  
+  <!--Footer-->
+  <div class="footer">
+      <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <!-- dropup button -->
+            <div class="btn-group dropup footer">
+              <button type="button" class="btn btn-dark dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                Directory
+              </button>
+              <div class="dropdown-menu">
+                <!-- Dropdown menu links -->
+                <li><a href="assets/Resume.docx" download>Download Resume</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li class="active"><a href="index.html">About Me</a></li>
+                <li><a href="portfolio-test.html">Portfolio</a></li>
+              </div>
+            </div>
+          </div>
+          <ul class="nav navbar-nav navbar-right">
+              <li class="white-text">fish.greg4@gmail.com<br>
+              (858)336-6839</li>
+              <li><a href="https://github.com/fish6206" target="_blank"><img src="assets/github.png" alt="github" height="30"
+                width="30"></a></li>
+              <li><a href="https://www.linkedin.com/in/greg-fish-3b4943a2/" target="_blank"><img src="assets/linkedin.png" alt="linkedin"
+                    height="30" width="30"></a></li>
+            </ul>
+        </div>
+      </nav>
+    </div>
+    <!--end footer-->
+
+</body>
+
+
+</html>
